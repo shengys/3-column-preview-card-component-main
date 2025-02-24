@@ -1,0 +1,198 @@
+/* Gestion des mobiles */
+@media only screen and (max-width: 480px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        min-height: 300px;
+        padding: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+/* Gestion des tablettes */
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        min-height: 300px;
+        padding: 30px;
+    }
+}
+
+/* Gestion des petits écrans et PC portables */
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        min-height: 300px;
+        padding: 30px;
+    }
+}
+
+/* Gestion des écrans de bureau */
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: auto;
+        max-width: 900px;
+    }
+
+    .card {
+        width: 30%;
+        min-height: 300px;
+        padding: 30px;
+    }
+
+    .card-sedans {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .card-luxury {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
+
+/* Gestion des grands écrans */
+@media only screen and (min-width: 1201px){
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: auto;
+        max-width: 900px;
+    }
+
+    .card {
+        width: 30%;
+        min-height: 300px;
+        padding: 30px;
+    }
+
+    .card-sedans {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .card-luxury {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
+
+/* AFFICHAGE CLASSIQUE */
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    flex-direction: column;
+}
+
+.container img {
+    max-width: 25%;
+    max-height: 25%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+}
+
+.card-sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.card-sedans button {
+    color: hsl(31, 77%, 52%);
+}
+
+.card-sedans button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card-suv button {
+    color: hsl(184, 100%, 22%)
+}
+
+.card-suv button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card-luxury button {
+    color: hsl(179, 100%, 13%)
+}
+
+.card-luxury button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card-suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card-luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+button {
+    text-decoration: none;
+    background-color: hsla(0, 0%, 100%, 0.75);
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    max-width: 50%;
+}
+
+h2 {
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 70px;
+    margin-top: 5px;
+}
+
+.attribution {
+    width: 100%;
+    justify-content: center;
+}
